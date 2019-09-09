@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chatapp</title>
+    <link rel="stylesheet" href="/css/chatapp.css" />
+    <!-- script for fontawesome.js-->
+    <script src="https://kit.fontawesome.com/2f53a9689d.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section id="header-section" class="primary-color">
+          <i class="fas fa-angle-left "></i>
+          <div id="chatapp-title">
+            <img src="/avatar1.PNG" class="avatar" alt="Avatar" />
+            <span>Hiren Patel</span>
+          </div>
+        </section>
+
+        <!-- chat history-->
+        <section id="chat-history-section">
+          <ul id="chat-history">
+            <div class="chat-list-item sender-chat">
+              <img src="/avatar1.PNG" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>Hello. How are you today?</p>
+                <span class="chat-time"
+                  >11:00 AM
+                  <img src="black-single-tick.png" class="chat-ticks default" />
+                </span>
+              </div>
+            </div>
+            <div class="chat-list-item receiver-chat">
+              <img src="/avatar2.PNG" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>
+                  Hello. How are you today?
+                </p>
+                <span class="chat-time"
+                  >11:05 AM <span class="fas fa-sm "></span
+                ></span>
+              </div>
+            </div>
+            <div class="chat-list-item sender-chat">
+              <img src="/avatar1.PNG" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>
+                  Life is great guys..I am good so far and now I ahve to attend
+                  some interview.What are you doing Jane? Are you going School
+                  tomorrow?
+                </p>
+                <span class="chat-time"
+                  >11:10 AM
+                  <img src="black-double-ticks.png" class="chat-ticks default"
+                /></span>
+              </div>
+            </div>
+            <div class="chat-list-item sender-chat">
+              <img src="/avatar1.PNG" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>Hello. How are you today?</p>
+                <span class="chat-time"
+                  >11:00 AM
+                  <img src="green-double-ticks.png" class="chat-ticks default"
+                /></span>
+              </div>
+            </div>
+            <div class="chat-list-item receiver-chat">
+              <img src="/avatar2.PNG" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>
+                  Hello. How are you today?I am good so far and now I ahve to
+                  attend some interview.What are you doing Jane? Are you going
+                  School tomorrow?
+                </p>
+                <span class="chat-time">11:05 AM</span>
+              </div>
+            </div>
+            <div class="chat-list-item sender-chat">
+              <img src="/avatar1.png" alt="Avatar" />
+              <div class="chat-item-text">
+                <p>Life is great guys!!</p>
+                <span class="chat-time"
+                  >11:10 AM <img src="green-double-ticks.png" class="chat-ticks"
+                /></span>
+              </div>
+            </div>
+          </ul>
+        </section>
+        <!-- chat history-->
+
+        <!-- new chat section -->
+
+        <section id="new-chat-section">
+          <form id="chat-form" method="POST">
+            <div class="new-chat-box">
+              <input
+                type="text"
+                name="chat-input"
+                class="chat-input default"
+                id="chat-input-box"
+                autocomplete="off"
+              />
+              <button class="button-link primary-color" id="chat-send-button">
+                <i class="fas fa-paper-plane fa-rotate "></i>
+              </button>
+            </div>
+          </form>
+        </section>
+        <!-- new chat section -->
+      </div>
+    </main>
+    <!-- script witout animation and effects-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="chatapp1.js"></script>
+  </body>
+</html>
