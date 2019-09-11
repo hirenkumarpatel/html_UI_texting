@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chatapp</title>
+    <link rel="stylesheet" href="/css/chatapp.css" />
+    <!-- script for fontawesome.js-->
+    <script src="https://kit.fontawesome.com/2f53a9689d.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- login section-->
+        <section id="logo-section">
+          <i class="fas fa-comments"></i>
+        </section>
+        <section id="form-section">
+          <div class="login-class">
+            <label for="" class="login-label" id="name-label">Enter Your Name:</label>
+            <input type="text" name="user-name" id="user-name" />
+            <label for="" class="login-label">Enter Your Email address:</label>
+            <input type="email" name="user-email" id="user-email" />
+            <label for="" class="login-label">Enter Your Password:</label>
+            <input type="password" name="user-password" id="user-password" />
+            <button type="button" id="login-button">Login</button>
+            <label id="or-label">OR</label>
+            <button type="button" id="register-button">Register</button>
+            <button type="button" id="create-account-button">Create Account</button>
+          </div>
+        </section>
+        <!-- user list-->
+      </div>
+    </main>
+    <!-- script witout animation and effects-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="chatapp.js"></script>
+  </body>
+</html>
