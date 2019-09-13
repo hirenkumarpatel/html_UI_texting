@@ -48,12 +48,11 @@ li > a {
 }
 /* main page header  */
 #main-header-section {
-  flex-grow: 1;
   background: #d4d4d4;
   display: flex;
   justify-content:center;
   align-items: center;
-  padding:0.5rem;
+  padding:0.9rem 0.5rem;
 }
 #main-header-section>div{
   display:flex;
@@ -167,7 +166,7 @@ i {
 }
 .chat-time {
   float: right;
-  color: #d4d4d4;
+  color: #525252;;
  }
  /* home page user style */
  #user-list-section,#form-section{
